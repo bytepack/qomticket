@@ -6,6 +6,7 @@
     font-display: swap;
 }
 .material-icons {
+    opacity: 0;
     font-family: "Material Icons";
     font-weight: normal;
     font-style: normal;
@@ -21,3 +22,6 @@
     -webkit-font-smoothing: antialiased;
 }
 
+.material-icons-loaded .material-icons {
+opacity: 1;
+}
